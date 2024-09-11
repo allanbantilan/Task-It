@@ -1,6 +1,11 @@
 # TaskIt
 
-**TaskIt** is a robust task management system designed to help you organize and prioritize your tasks with ease. Whether you are managing personal goals or professional projects, TaskMaster provides a user-friendly interface and powerful features to enhance your productivity.
+**TaskIt** is a robust task management system designed to help you organize and prioritize your tasks with ease. Whether you are managing personal goals or professional projects. It is built using a powerful tech stack that includes:
+
+- **HTML**: For structuring the content of the application.
+- **Tailwind CSS**: For styling and creating a responsive design.
+- **JavaScript**: For interactivity and dynamic features.
+- **PHP**: For server-side scripting and managing database interactions.
 
 ## Features
 
