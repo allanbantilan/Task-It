@@ -1,0 +1,31 @@
+TODOS
+
+
+created the task table, adds adding functionality and "is done" checking function.
+
+to be done:
+add the edit and delete function. DONE
+dashboard card to show the tasks. DONE
+add pagination in the dashboard. DONE
+add the statistics tab, show some statictics there haha. DONE
+<!-- query for getting the task done (from 2 tables in the database), task pending and no. of task. IT CANT BE DONE it should only be 1 table and just manipulate it from the where clause. -->
+sorting in the dashboard. DONE
+fixed pagination. DONE
+fixed the query for the statistics and removing from dashboard. DONE
+drag and drop function in the dashboard. DONE
+mark as done in the dashbard. DONE
+statistics done tasks, pending tasks and all tasks. DONE
+
+design fixes. DONE
+modal in the dashboard when clicking the title. DONE
+todo : change the edit, update and delete with the new alert. DONE
+added categories with crud functions. DONE
+
+to be fixed : category fetcing in the select in add task and edit task. (when submitting the category returns null)
+
+hard and future upgrades:
+add the notification.
+settings will be the changing and adding of category
+make it responsive to small devices.
+maybe create a admin dashboard to trace all of the users activity and shit
+The calendar, experiment with it maybe it can be good hememeie

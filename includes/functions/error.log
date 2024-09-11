@@ -1,0 +1,495 @@
+[2024-09-08 18:35:02] Script started
+[2024-09-08 18:35:02] db_connect.php included
+[2024-09-08 18:35:02] Received JSON: {"taskOrder":["27","26","28","29","30","31","32"]}
+[2024-09-08 18:35:02] Transaction begun
+[2024-09-08 18:35:02] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=27, index=0
+[2024-09-08 18:35:02] Affected rows for taskId 27: 0
+[2024-09-08 18:35:02] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=26, index=1
+[2024-09-08 18:35:02] Affected rows for taskId 26: 2
+[2024-09-08 18:35:02] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=28, index=2
+[2024-09-08 18:35:02] Affected rows for taskId 28: 2
+[2024-09-08 18:35:02] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=29, index=3
+[2024-09-08 18:35:02] Affected rows for taskId 29: 2
+[2024-09-08 18:35:02] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=30, index=4
+[2024-09-08 18:35:02] Affected rows for taskId 30: 2
+[2024-09-08 18:35:02] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=31, index=5
+[2024-09-08 18:35:02] Affected rows for taskId 31: 2
+[2024-09-08 18:35:02] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=32, index=6
+[2024-09-08 18:35:02] Affected rows for taskId 32: 2
+[2024-09-08 18:35:02] Transaction committed successfully
+[2024-09-08 18:35:02] Script started
+[2024-09-08 18:35:02] db_connect.php included
+[2024-09-08 18:35:02] Received JSON: {"taskOrder":["27","31","26","28","29","30","32"]}
+[2024-09-08 18:35:02] Transaction begun
+[2024-09-08 18:35:02] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=27, index=0
+[2024-09-08 18:35:02] Affected rows for taskId 27: 0
+[2024-09-08 18:35:02] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=31, index=1
+[2024-09-08 18:35:02] Affected rows for taskId 31: 2
+[2024-09-08 18:35:02] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=26, index=2
+[2024-09-08 18:35:02] Affected rows for taskId 26: 2
+[2024-09-08 18:35:02] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=28, index=3
+[2024-09-08 18:35:02] Affected rows for taskId 28: 2
+[2024-09-08 18:35:02] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=29, index=4
+[2024-09-08 18:35:02] Affected rows for taskId 29: 2
+[2024-09-08 18:35:02] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=30, index=5
+[2024-09-08 18:35:02] Affected rows for taskId 30: 2
+[2024-09-08 18:35:02] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=32, index=6
+[2024-09-08 18:35:02] Affected rows for taskId 32: 0
+[2024-09-08 18:35:02] Transaction committed successfully
+[2024-09-08 18:35:04] Script started
+[2024-09-08 18:35:04] db_connect.php included
+[2024-09-08 18:35:04] Received JSON: {"taskOrder":["27","26","31","28","29","30","32"]}
+[2024-09-08 18:35:04] Transaction begun
+[2024-09-08 18:35:04] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=27, index=0
+[2024-09-08 18:35:04] Affected rows for taskId 27: 0
+[2024-09-08 18:35:04] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=26, index=1
+[2024-09-08 18:35:04] Affected rows for taskId 26: 2
+[2024-09-08 18:35:04] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=31, index=2
+[2024-09-08 18:35:04] Affected rows for taskId 31: 2
+[2024-09-08 18:35:04] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=28, index=3
+[2024-09-08 18:35:04] Affected rows for taskId 28: 0
+[2024-09-08 18:35:04] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=29, index=4
+[2024-09-08 18:35:04] Affected rows for taskId 29: 0
+[2024-09-08 18:35:04] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=30, index=5
+[2024-09-08 18:35:04] Affected rows for taskId 30: 0
+[2024-09-08 18:35:04] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=32, index=6
+[2024-09-08 18:35:04] Affected rows for taskId 32: 0
+[2024-09-08 18:35:04] Transaction committed successfully
+[2024-09-08 18:35:04] Script started
+[2024-09-08 18:35:04] db_connect.php included
+[2024-09-08 18:35:04] Received JSON: {"taskOrder":["27","30","26","31","28","29","32"]}
+[2024-09-08 18:35:04] Transaction begun
+[2024-09-08 18:35:04] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=27, index=0
+[2024-09-08 18:35:04] Affected rows for taskId 27: 0
+[2024-09-08 18:35:04] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=30, index=1
+[2024-09-08 18:35:04] Affected rows for taskId 30: 2
+[2024-09-08 18:35:04] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=26, index=2
+[2024-09-08 18:35:04] Affected rows for taskId 26: 2
+[2024-09-08 18:35:04] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=31, index=3
+[2024-09-08 18:35:04] Affected rows for taskId 31: 2
+[2024-09-08 18:35:04] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=28, index=4
+[2024-09-08 18:35:04] Affected rows for taskId 28: 2
+[2024-09-08 18:35:04] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=29, index=5
+[2024-09-08 18:35:04] Affected rows for taskId 29: 2
+[2024-09-08 18:35:04] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=32, index=6
+[2024-09-08 18:35:04] Affected rows for taskId 32: 0
+[2024-09-08 18:35:04] Transaction committed successfully
+[2024-09-08 18:35:05] Script started
+[2024-09-08 18:35:05] db_connect.php included
+[2024-09-08 18:35:05] Received JSON: {"taskOrder":["27","30","29","26","31","28","32"]}
+[2024-09-08 18:35:05] Transaction begun
+[2024-09-08 18:35:05] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=27, index=0
+[2024-09-08 18:35:05] Affected rows for taskId 27: 0
+[2024-09-08 18:35:05] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=30, index=1
+[2024-09-08 18:35:05] Affected rows for taskId 30: 0
+[2024-09-08 18:35:05] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=29, index=2
+[2024-09-08 18:35:05] Affected rows for taskId 29: 2
+[2024-09-08 18:35:05] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=26, index=3
+[2024-09-08 18:35:05] Affected rows for taskId 26: 2
+[2024-09-08 18:35:05] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=31, index=4
+[2024-09-08 18:35:05] Affected rows for taskId 31: 2
+[2024-09-08 18:35:05] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=28, index=5
+[2024-09-08 18:35:05] Affected rows for taskId 28: 2
+[2024-09-08 18:35:05] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=32, index=6
+[2024-09-08 18:35:05] Affected rows for taskId 32: 0
+[2024-09-08 18:35:05] Transaction committed successfully
+[2024-09-08 18:35:06] Script started
+[2024-09-08 18:35:06] db_connect.php included
+[2024-09-08 18:35:06] Received JSON: {"taskOrder":["27","30","29","32","26","31","28"]}
+[2024-09-08 18:35:06] Transaction begun
+[2024-09-08 18:35:06] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=27, index=0
+[2024-09-08 18:35:06] Affected rows for taskId 27: 0
+[2024-09-08 18:35:06] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=30, index=1
+[2024-09-08 18:35:06] Affected rows for taskId 30: 0
+[2024-09-08 18:35:06] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=29, index=2
+[2024-09-08 18:35:06] Affected rows for taskId 29: 0
+[2024-09-08 18:35:06] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=32, index=3
+[2024-09-08 18:35:06] Affected rows for taskId 32: 2
+[2024-09-08 18:35:06] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=26, index=4
+[2024-09-08 18:35:06] Affected rows for taskId 26: 2
+[2024-09-08 18:35:06] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=31, index=5
+[2024-09-08 18:35:06] Affected rows for taskId 31: 2
+[2024-09-08 18:35:06] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=28, index=6
+[2024-09-08 18:35:06] Affected rows for taskId 28: 2
+[2024-09-08 18:35:06] Transaction committed successfully
+[2024-09-08 18:35:06] Script started
+[2024-09-08 18:35:06] db_connect.php included
+[2024-09-08 18:35:06] Received JSON: {"taskOrder":["27","30","28","29","32","26","31"]}
+[2024-09-08 18:35:06] Transaction begun
+[2024-09-08 18:35:06] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=27, index=0
+[2024-09-08 18:35:06] Affected rows for taskId 27: 0
+[2024-09-08 18:35:06] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=30, index=1
+[2024-09-08 18:35:06] Affected rows for taskId 30: 0
+[2024-09-08 18:35:06] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=28, index=2
+[2024-09-08 18:35:06] Affected rows for taskId 28: 2
+[2024-09-08 18:35:06] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=29, index=3
+[2024-09-08 18:35:06] Affected rows for taskId 29: 2
+[2024-09-08 18:35:06] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=32, index=4
+[2024-09-08 18:35:06] Affected rows for taskId 32: 2
+[2024-09-08 18:35:06] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=26, index=5
+[2024-09-08 18:35:06] Affected rows for taskId 26: 2
+[2024-09-08 18:35:06] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=31, index=6
+[2024-09-08 18:35:06] Affected rows for taskId 31: 2
+[2024-09-08 18:35:06] Transaction committed successfully
+[2024-09-08 18:35:07] Script started
+[2024-09-08 18:35:07] db_connect.php included
+[2024-09-08 18:35:07] Received JSON: {"taskOrder":["27","28","30","29","32","26","31"]}
+[2024-09-08 18:35:07] Transaction begun
+[2024-09-08 18:35:07] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=27, index=0
+[2024-09-08 18:35:07] Affected rows for taskId 27: 0
+[2024-09-08 18:35:07] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=28, index=1
+[2024-09-08 18:35:07] Affected rows for taskId 28: 2
+[2024-09-08 18:35:07] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=30, index=2
+[2024-09-08 18:35:07] Affected rows for taskId 30: 2
+[2024-09-08 18:35:07] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=29, index=3
+[2024-09-08 18:35:07] Affected rows for taskId 29: 0
+[2024-09-08 18:35:07] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=32, index=4
+[2024-09-08 18:35:07] Affected rows for taskId 32: 0
+[2024-09-08 18:35:07] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=26, index=5
+[2024-09-08 18:35:07] Affected rows for taskId 26: 0
+[2024-09-08 18:35:07] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=31, index=6
+[2024-09-08 18:35:07] Affected rows for taskId 31: 0
+[2024-09-08 18:35:07] Transaction committed successfully
+[2024-09-08 18:35:07] Script started
+[2024-09-08 18:35:07] db_connect.php included
+[2024-09-08 18:35:07] Received JSON: {"taskOrder":["27","26","28","30","29","32","31"]}
+[2024-09-08 18:35:07] Transaction begun
+[2024-09-08 18:35:07] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=27, index=0
+[2024-09-08 18:35:07] Affected rows for taskId 27: 0
+[2024-09-08 18:35:07] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=26, index=1
+[2024-09-08 18:35:07] Affected rows for taskId 26: 2
+[2024-09-08 18:35:07] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=28, index=2
+[2024-09-08 18:35:07] Affected rows for taskId 28: 2
+[2024-09-08 18:35:07] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=30, index=3
+[2024-09-08 18:35:07] Affected rows for taskId 30: 2
+[2024-09-08 18:35:07] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=29, index=4
+[2024-09-08 18:35:07] Affected rows for taskId 29: 2
+[2024-09-08 18:35:07] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=32, index=5
+[2024-09-08 18:35:07] Affected rows for taskId 32: 2
+[2024-09-08 18:35:07] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=31, index=6
+[2024-09-08 18:35:07] Affected rows for taskId 31: 0
+[2024-09-08 18:35:07] Transaction committed successfully
+[2024-09-08 18:35:08] Script started
+[2024-09-08 18:35:08] db_connect.php included
+[2024-09-08 18:35:08] Received JSON: {"taskOrder":["27","26","28","30","32","29","31"]}
+[2024-09-08 18:35:08] Transaction begun
+[2024-09-08 18:35:08] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=27, index=0
+[2024-09-08 18:35:08] Affected rows for taskId 27: 0
+[2024-09-08 18:35:08] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=26, index=1
+[2024-09-08 18:35:08] Affected rows for taskId 26: 0
+[2024-09-08 18:35:08] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=28, index=2
+[2024-09-08 18:35:08] Affected rows for taskId 28: 0
+[2024-09-08 18:35:08] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=30, index=3
+[2024-09-08 18:35:08] Affected rows for taskId 30: 0
+[2024-09-08 18:35:08] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=32, index=4
+[2024-09-08 18:35:08] Affected rows for taskId 32: 2
+[2024-09-08 18:35:08] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=29, index=5
+[2024-09-08 18:35:08] Affected rows for taskId 29: 2
+[2024-09-08 18:35:08] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=31, index=6
+[2024-09-08 18:35:08] Affected rows for taskId 31: 0
+[2024-09-08 18:35:08] Transaction committed successfully
+[2024-09-08 18:35:08] Script started
+[2024-09-08 18:35:08] db_connect.php included
+[2024-09-08 18:35:08] Received JSON: {"taskOrder":["27","26","31","28","30","32","29"]}
+[2024-09-08 18:35:08] Transaction begun
+[2024-09-08 18:35:08] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=27, index=0
+[2024-09-08 18:35:08] Affected rows for taskId 27: 0
+[2024-09-08 18:35:08] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=26, index=1
+[2024-09-08 18:35:08] Affected rows for taskId 26: 0
+[2024-09-08 18:35:08] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=31, index=2
+[2024-09-08 18:35:08] Affected rows for taskId 31: 2
+[2024-09-08 18:35:08] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=28, index=3
+[2024-09-08 18:35:08] Affected rows for taskId 28: 2
+[2024-09-08 18:35:08] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=30, index=4
+[2024-09-08 18:35:08] Affected rows for taskId 30: 2
+[2024-09-08 18:35:08] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=32, index=5
+[2024-09-08 18:35:08] Affected rows for taskId 32: 2
+[2024-09-08 18:35:08] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=29, index=6
+[2024-09-08 18:35:08] Affected rows for taskId 29: 2
+[2024-09-08 18:35:08] Transaction committed successfully
+[2024-09-08 18:35:09] Script started
+[2024-09-08 18:35:09] db_connect.php included
+[2024-09-08 18:35:09] Received JSON: {"taskOrder":["27","32","26","31","28","30","29"]}
+[2024-09-08 18:35:09] Transaction begun
+[2024-09-08 18:35:09] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=27, index=0
+[2024-09-08 18:35:09] Affected rows for taskId 27: 0
+[2024-09-08 18:35:09] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=32, index=1
+[2024-09-08 18:35:09] Affected rows for taskId 32: 2
+[2024-09-08 18:35:09] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=26, index=2
+[2024-09-08 18:35:09] Affected rows for taskId 26: 2
+[2024-09-08 18:35:09] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=31, index=3
+[2024-09-08 18:35:09] Affected rows for taskId 31: 2
+[2024-09-08 18:35:09] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=28, index=4
+[2024-09-08 18:35:09] Affected rows for taskId 28: 2
+[2024-09-08 18:35:09] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=30, index=5
+[2024-09-08 18:35:09] Affected rows for taskId 30: 2
+[2024-09-08 18:35:09] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=29, index=6
+[2024-09-08 18:35:09] Affected rows for taskId 29: 0
+[2024-09-08 18:35:09] Transaction committed successfully
+[2024-09-09 08:56:41] Script started
+[2024-09-09 08:56:41] db_connect.php included
+[2024-09-09 08:56:41] Received JSON: {"taskOrder":["32","27","26","31","28","30","29"]}
+[2024-09-09 08:56:41] Transaction begun
+[2024-09-09 08:56:41] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=32, index=0
+[2024-09-09 08:56:41] Affected rows for taskId 32: 2
+[2024-09-09 08:56:41] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=27, index=1
+[2024-09-09 08:56:41] Affected rows for taskId 27: 2
+[2024-09-09 08:56:41] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=26, index=2
+[2024-09-09 08:56:41] Affected rows for taskId 26: 0
+[2024-09-09 08:56:41] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=31, index=3
+[2024-09-09 08:56:41] Affected rows for taskId 31: 0
+[2024-09-09 08:56:41] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=28, index=4
+[2024-09-09 08:56:41] Affected rows for taskId 28: 0
+[2024-09-09 08:56:41] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=30, index=5
+[2024-09-09 08:56:41] Affected rows for taskId 30: 0
+[2024-09-09 08:56:41] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=29, index=6
+[2024-09-09 08:56:41] Affected rows for taskId 29: 0
+[2024-09-09 08:56:41] Transaction committed successfully
+[2024-09-09 08:56:44] Script started
+[2024-09-09 08:56:44] db_connect.php included
+[2024-09-09 08:56:44] Received JSON: {"taskOrder":["32","30","27","26","31","28","29"]}
+[2024-09-09 08:56:44] Transaction begun
+[2024-09-09 08:56:44] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=32, index=0
+[2024-09-09 08:56:44] Affected rows for taskId 32: 0
+[2024-09-09 08:56:44] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=30, index=1
+[2024-09-09 08:56:44] Affected rows for taskId 30: 2
+[2024-09-09 08:56:44] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=27, index=2
+[2024-09-09 08:56:44] Affected rows for taskId 27: 2
+[2024-09-09 08:56:44] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=26, index=3
+[2024-09-09 08:56:44] Affected rows for taskId 26: 2
+[2024-09-09 08:56:44] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=31, index=4
+[2024-09-09 08:56:44] Affected rows for taskId 31: 2
+[2024-09-09 08:56:44] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=28, index=5
+[2024-09-09 08:56:44] Affected rows for taskId 28: 2
+[2024-09-09 08:56:44] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=29, index=6
+[2024-09-09 08:56:44] Affected rows for taskId 29: 0
+[2024-09-09 08:56:44] Transaction committed successfully
+[2024-09-09 08:56:45] Script started
+[2024-09-09 08:56:45] db_connect.php included
+[2024-09-09 08:56:45] Received JSON: {"taskOrder":["32","30","27","26","28","31","29"]}
+[2024-09-09 08:56:45] Transaction begun
+[2024-09-09 08:56:45] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=32, index=0
+[2024-09-09 08:56:45] Affected rows for taskId 32: 0
+[2024-09-09 08:56:45] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=30, index=1
+[2024-09-09 08:56:45] Affected rows for taskId 30: 0
+[2024-09-09 08:56:45] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=27, index=2
+[2024-09-09 08:56:45] Affected rows for taskId 27: 0
+[2024-09-09 08:56:45] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=26, index=3
+[2024-09-09 08:56:45] Affected rows for taskId 26: 0
+[2024-09-09 08:56:45] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=28, index=4
+[2024-09-09 08:56:45] Affected rows for taskId 28: 2
+[2024-09-09 08:56:45] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=31, index=5
+[2024-09-09 08:56:45] Affected rows for taskId 31: 2
+[2024-09-09 08:56:45] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=29, index=6
+[2024-09-09 08:56:45] Affected rows for taskId 29: 0
+[2024-09-09 08:56:45] Transaction committed successfully
+[2024-09-09 08:56:46] Script started
+[2024-09-09 08:56:46] db_connect.php included
+[2024-09-09 08:56:46] Received JSON: {"taskOrder":["32","30","29","27","26","28","31"]}
+[2024-09-09 08:56:46] Transaction begun
+[2024-09-09 08:56:46] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=32, index=0
+[2024-09-09 08:56:46] Affected rows for taskId 32: 0
+[2024-09-09 08:56:46] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=30, index=1
+[2024-09-09 08:56:46] Affected rows for taskId 30: 0
+[2024-09-09 08:56:46] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=29, index=2
+[2024-09-09 08:56:46] Affected rows for taskId 29: 2
+[2024-09-09 08:56:46] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=27, index=3
+[2024-09-09 08:56:46] Affected rows for taskId 27: 2
+[2024-09-09 08:56:46] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=26, index=4
+[2024-09-09 08:56:46] Affected rows for taskId 26: 2
+[2024-09-09 08:56:46] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=28, index=5
+[2024-09-09 08:56:46] Affected rows for taskId 28: 2
+[2024-09-09 08:56:46] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=31, index=6
+[2024-09-09 08:56:46] Affected rows for taskId 31: 2
+[2024-09-09 08:56:46] Transaction committed successfully
+[2024-09-09 08:56:48] Script started
+[2024-09-09 08:56:48] db_connect.php included
+[2024-09-09 08:56:48] Received JSON: {"taskOrder":["32","30","29","26","28","31","27"]}
+[2024-09-09 08:56:48] Transaction begun
+[2024-09-09 08:56:48] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=32, index=0
+[2024-09-09 08:56:48] Affected rows for taskId 32: 0
+[2024-09-09 08:56:48] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=30, index=1
+[2024-09-09 08:56:48] Affected rows for taskId 30: 0
+[2024-09-09 08:56:48] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=29, index=2
+[2024-09-09 08:56:48] Affected rows for taskId 29: 0
+[2024-09-09 08:56:48] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=26, index=3
+[2024-09-09 08:56:48] Affected rows for taskId 26: 2
+[2024-09-09 08:56:48] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=28, index=4
+[2024-09-09 08:56:48] Affected rows for taskId 28: 2
+[2024-09-09 08:56:48] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=31, index=5
+[2024-09-09 08:56:48] Affected rows for taskId 31: 2
+[2024-09-09 08:56:48] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=27, index=6
+[2024-09-09 08:56:48] Affected rows for taskId 27: 2
+[2024-09-09 08:56:48] Transaction committed successfully
+[2024-09-09 08:56:54] Script started
+[2024-09-09 08:56:54] db_connect.php included
+[2024-09-09 08:56:54] Received JSON: {"taskOrder":["27","32","30","29","26","28","31"]}
+[2024-09-09 08:56:54] Transaction begun
+[2024-09-09 08:56:54] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=27, index=0
+[2024-09-09 08:56:54] Affected rows for taskId 27: 2
+[2024-09-09 08:56:54] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=32, index=1
+[2024-09-09 08:56:54] Affected rows for taskId 32: 2
+[2024-09-09 08:56:54] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=30, index=2
+[2024-09-09 08:56:54] Affected rows for taskId 30: 2
+[2024-09-09 08:56:54] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=29, index=3
+[2024-09-09 08:56:54] Affected rows for taskId 29: 2
+[2024-09-09 08:56:54] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=26, index=4
+[2024-09-09 08:56:54] Affected rows for taskId 26: 2
+[2024-09-09 08:56:54] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=28, index=5
+[2024-09-09 08:56:54] Affected rows for taskId 28: 2
+[2024-09-09 08:56:54] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=31, index=6
+[2024-09-09 08:56:54] Affected rows for taskId 31: 2
+[2024-09-09 08:56:54] Transaction committed successfully
+[2024-09-11 16:51:48] Script started
+[2024-09-11 16:51:48] db_connect.php included
+[2024-09-11 16:51:48] Received JSON: {"taskOrder":["46","45"]}
+[2024-09-11 16:51:48] Transaction begun
+[2024-09-11 16:51:48] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=46, index=0
+[2024-09-11 16:51:48] Affected rows for taskId 46: 0
+[2024-09-11 16:51:48] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=45, index=1
+[2024-09-11 16:51:48] Affected rows for taskId 45: 2
+[2024-09-11 16:51:48] Transaction committed successfully
+[2024-09-11 17:39:07] Script started
+[2024-09-11 17:39:07] db_connect.php included
+[2024-09-11 17:39:07] Received JSON: {"taskOrder":["45","46"]}
+[2024-09-11 17:39:07] Transaction begun
+[2024-09-11 17:39:07] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=45, index=0
+[2024-09-11 17:39:07] Affected rows for taskId 45: 2
+[2024-09-11 17:39:07] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=46, index=1
+[2024-09-11 17:39:07] Affected rows for taskId 46: 2
+[2024-09-11 17:39:07] Transaction committed successfully
+[2024-09-11 17:39:08] Script started
+[2024-09-11 17:39:08] db_connect.php included
+[2024-09-11 17:39:08] Received JSON: {"taskOrder":["46","45"]}
+[2024-09-11 17:39:08] Transaction begun
+[2024-09-11 17:39:08] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=46, index=0
+[2024-09-11 17:39:08] Affected rows for taskId 46: 2
+[2024-09-11 17:39:08] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=45, index=1
+[2024-09-11 17:39:08] Affected rows for taskId 45: 2
+[2024-09-11 17:39:08] Transaction committed successfully
+[2024-09-11 17:39:08] Script started
+[2024-09-11 17:39:08] db_connect.php included
+[2024-09-11 17:39:08] Received JSON: {"taskOrder":["45","46"]}
+[2024-09-11 17:39:08] Transaction begun
+[2024-09-11 17:39:08] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=45, index=0
+[2024-09-11 17:39:08] Affected rows for taskId 45: 2
+[2024-09-11 17:39:08] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=46, index=1
+[2024-09-11 17:39:08] Affected rows for taskId 46: 2
+[2024-09-11 17:39:08] Transaction committed successfully
+[2024-09-11 17:39:09] Script started
+[2024-09-11 17:39:09] db_connect.php included
+[2024-09-11 17:39:09] Received JSON: {"taskOrder":["46","45"]}
+[2024-09-11 17:39:09] Transaction begun
+[2024-09-11 17:39:09] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=46, index=0
+[2024-09-11 17:39:09] Affected rows for taskId 46: 2
+[2024-09-11 17:39:09] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=45, index=1
+[2024-09-11 17:39:09] Affected rows for taskId 45: 2
+[2024-09-11 17:39:09] Transaction committed successfully
+[2024-09-11 17:39:09] Script started
+[2024-09-11 17:39:09] db_connect.php included
+[2024-09-11 17:39:09] Received JSON: {"taskOrder":["45","46"]}
+[2024-09-11 17:39:09] Transaction begun
+[2024-09-11 17:39:09] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=45, index=0
+[2024-09-11 17:39:09] Affected rows for taskId 45: 2
+[2024-09-11 17:39:09] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=46, index=1
+[2024-09-11 17:39:09] Affected rows for taskId 46: 2
+[2024-09-11 17:39:09] Transaction committed successfully
+[2024-09-11 17:39:10] Script started
+[2024-09-11 17:39:10] db_connect.php included
+[2024-09-11 17:39:10] Received JSON: {"taskOrder":["46","45"]}
+[2024-09-11 17:39:10] Transaction begun
+[2024-09-11 17:39:10] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=46, index=0
+[2024-09-11 17:39:10] Affected rows for taskId 46: 2
+[2024-09-11 17:39:10] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=45, index=1
+[2024-09-11 17:39:10] Affected rows for taskId 45: 2
+[2024-09-11 17:39:10] Transaction committed successfully
+[2024-09-11 17:39:10] Script started
+[2024-09-11 17:39:10] db_connect.php included
+[2024-09-11 17:39:10] Received JSON: {"taskOrder":["45","46"]}
+[2024-09-11 17:39:10] Transaction begun
+[2024-09-11 17:39:10] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=45, index=0
+[2024-09-11 17:39:10] Affected rows for taskId 45: 2
+[2024-09-11 17:39:10] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=46, index=1
+[2024-09-11 17:39:10] Affected rows for taskId 46: 2
+[2024-09-11 17:39:10] Transaction committed successfully
+[2024-09-11 17:39:10] Script started
+[2024-09-11 17:39:10] db_connect.php included
+[2024-09-11 17:39:10] Received JSON: {"taskOrder":["46","45"]}
+[2024-09-11 17:39:10] Transaction begun
+[2024-09-11 17:39:10] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=46, index=0
+[2024-09-11 17:39:10] Affected rows for taskId 46: 2
+[2024-09-11 17:39:10] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=45, index=1
+[2024-09-11 17:39:10] Affected rows for taskId 45: 2
+[2024-09-11 17:39:10] Transaction committed successfully
+[2024-09-11 17:39:11] Script started
+[2024-09-11 17:39:11] db_connect.php included
+[2024-09-11 17:39:11] Received JSON: {"taskOrder":["45","46"]}
+[2024-09-11 17:39:11] Transaction begun
+[2024-09-11 17:39:11] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=45, index=0
+[2024-09-11 17:39:11] Affected rows for taskId 45: 2
+[2024-09-11 17:39:11] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=46, index=1
+[2024-09-11 17:39:11] Affected rows for taskId 46: 2
+[2024-09-11 17:39:11] Transaction committed successfully
+[2024-09-11 17:39:15] Script started
+[2024-09-11 17:39:15] db_connect.php included
+[2024-09-11 17:39:15] Received JSON: {"taskOrder":["46","45"]}
+[2024-09-11 17:39:15] Transaction begun
+[2024-09-11 17:39:15] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=46, index=0
+[2024-09-11 17:39:15] Affected rows for taskId 46: 2
+[2024-09-11 17:39:15] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=45, index=1
+[2024-09-11 17:39:15] Affected rows for taskId 45: 2
+[2024-09-11 17:39:15] Transaction committed successfully
+[2024-09-11 17:39:15] Script started
+[2024-09-11 17:39:15] db_connect.php included
+[2024-09-11 17:39:15] Received JSON: {"taskOrder":["45","46"]}
+[2024-09-11 17:39:15] Transaction begun
+[2024-09-11 17:39:15] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=45, index=0
+[2024-09-11 17:39:15] Affected rows for taskId 45: 2
+[2024-09-11 17:39:15] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=46, index=1
+[2024-09-11 17:39:15] Affected rows for taskId 46: 2
+[2024-09-11 17:39:15] Transaction committed successfully
+[2024-09-11 17:39:15] Script started
+[2024-09-11 17:39:15] db_connect.php included
+[2024-09-11 17:39:15] Received JSON: {"taskOrder":["46","45"]}
+[2024-09-11 17:39:15] Transaction begun
+[2024-09-11 17:39:15] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=46, index=0
+[2024-09-11 17:39:15] Affected rows for taskId 46: 2
+[2024-09-11 17:39:15] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=45, index=1
+[2024-09-11 17:39:15] Affected rows for taskId 45: 2
+[2024-09-11 17:39:15] Transaction committed successfully
+[2024-09-11 17:39:16] Script started
+[2024-09-11 17:39:16] db_connect.php included
+[2024-09-11 17:39:16] Received JSON: {"taskOrder":["45","46"]}
+[2024-09-11 17:39:16] Transaction begun
+[2024-09-11 17:39:16] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=45, index=0
+[2024-09-11 17:39:16] Affected rows for taskId 45: 2
+[2024-09-11 17:39:16] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=46, index=1
+[2024-09-11 17:39:16] Affected rows for taskId 46: 2
+[2024-09-11 17:39:16] Transaction committed successfully
+[2024-09-11 17:39:16] Script started
+[2024-09-11 17:39:16] db_connect.php included
+[2024-09-11 17:39:16] Received JSON: {"taskOrder":["46","45"]}
+[2024-09-11 17:39:16] Transaction begun
+[2024-09-11 17:39:16] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=46, index=0
+[2024-09-11 17:39:16] Affected rows for taskId 46: 2
+[2024-09-11 17:39:16] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=45, index=1
+[2024-09-11 17:39:16] Affected rows for taskId 45: 2
+[2024-09-11 17:39:16] Transaction committed successfully
+[2024-09-11 17:39:17] Script started
+[2024-09-11 17:39:17] db_connect.php included
+[2024-09-11 17:39:17] Received JSON: {"taskOrder":["45","46"]}
+[2024-09-11 17:39:17] Transaction begun
+[2024-09-11 17:39:17] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=45, index=0
+[2024-09-11 17:39:17] Affected rows for taskId 45: 2
+[2024-09-11 17:39:17] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=46, index=1
+[2024-09-11 17:39:17] Affected rows for taskId 46: 2
+[2024-09-11 17:39:17] Transaction committed successfully
+[2024-09-11 17:39:17] Script started
+[2024-09-11 17:39:17] db_connect.php included
+[2024-09-11 17:39:17] Received JSON: {"taskOrder":["46","45"]}
+[2024-09-11 17:39:17] Transaction begun
+[2024-09-11 17:39:17] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=46, index=0
+[2024-09-11 17:39:17] Affected rows for taskId 46: 2
+[2024-09-11 17:39:17] Executing SQL: INSERT INTO tasks (task_id, task_order) VALUES (?, ?) ON DUPLICATE KEY UPDATE task_order = VALUES(task_order) with params: taskId=45, index=1
+[2024-09-11 17:39:17] Affected rows for taskId 45: 2
+[2024-09-11 17:39:17] Transaction committed successfully
